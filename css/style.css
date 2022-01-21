@@ -1,0 +1,256 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+body{
+    padding: 90px 20px 0;
+}
+/* CSS PARA EL HEADER */
+
+.header{
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+/* CSS PARA EL NAV */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none ;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background-color: rgb(110, 34, 180);
+    transition: 0.7s;
+}  
+
+/* CSS DEL BOTON PARA EL MENU DE CELULAR */
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none;
+}
+@media (max-width:768px){
+    .header{
+        height: 60px;
+    }
+    /* CSS PARA EL NAV */
+    .logo{
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(64, 22, 104);
+        margin-right: 20px;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+    
+    .nav-menu-item{
+        line-height: 70px;
+    }
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: rgb(163, 75, 245) ;
+    }
+    .nav-toggle{
+       display: block; 
+    }
+    .nav-menu_visible{
+        left: 0;
+    }
+
+
+    img{
+        max-width: 100%;
+    }
+    td {
+        display: block;
+    }
+}
+
+
+
+section {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px;
+}
+h3 {
+    font-size: 30px;
+}
+h4{
+    font-size: 28px;
+}
+h5 {
+    font-size: 26px;
+}
+p {
+    font-size: 24px;
+}
+
+ul li{
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+figcaption{
+    font-size: 25px;
+}
+
+.mensaje-disculpa{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightseagreen;
+    border-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* ESTOS SON  LOS ESTILOS CORRESPONDIENTES A LAS TABLAS DE LA SECCIÓN MEXT */
+
+.tabla-mext{
+    font-size: 25px;
+    text-align: center;
+    color:steelblue;
+    border: medium solid #000;
+    border-collapse: collapse;
+    margin: 50px;
+}
+.tabla-mext td {
+    padding: 20px;
+    border: medium solid #000;
+}
+
+.website-screenshoot{
+    max-width: 100%;
+}
+
+/*Estilos para textos escritos en japonés */ 
+.texto-japones{
+    font-family: "Yu Mincho",sans-serif;
+    font-size: 26px;
+}
+
+/*CLASE PARA CENTRAR IMAGENES GENERAL */
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+/* CLASE PARA CENTRAR IMAGENES EN LA SECCIÓN DE YOUTUBERS*/
+.center-youtubers img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+/* CLASE PARA CENTRAR TABLAS SECCIÓN MEXT */
+.center-table table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.lista-examenes >li{
+    margin-bottom: 10px;
+}
+
+
+
+
+.resource-item a{
+    color: blueviolet;
+    
+}
+.resource-item:visited{
+    color: inherit;
+}
+
+.resource-item *:hover{
+     color: #7DDAD9;  
+}
+.resource-item>li{
+    margin-bottom: 7px;
+}
+
+.item-espanol, .item-espanol>a{
+    color: #FC9C2A;
+}
+.item-ingles, .item-ingles>a{
+    color: #0179EE;
+}
+.item-japones, .item-japones>a{
+    color: #CA2AFC;
+}
