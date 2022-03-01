@@ -1,0 +1,384 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+
+body{
+    padding: 90px 20px 0;
+    overflow: scroll; /* Show scrollbars */
+}
+/* CSS PARA EL HEADER */
+
+.header{
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+/* CSS PARA EL NAV */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none ;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover,
+.nav-menu-link_active{
+    background-color: rgb(110, 34, 180);
+    transition: 0.7s;
+}  
+
+.nav-toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    cursor: pointer;
+
+    display: none;
+}
+
+
+section {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px;
+}
+h3 {
+    font-size: 30px;
+}
+h4{
+    font-size: 28px;
+}
+h5 {
+    font-size: 26px;
+}
+p {
+    font-size: 24px;
+}
+
+ul li{
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+figcaption{
+    font-size: 25px;
+}
+
+.mensaje-disculpa{
+    text-align: center;
+    font-size: 30px;
+    background-color: lightseagreen;
+    border-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* ESTOS SON  LOS ESTILOS CORRESPONDIENTES A LAS TABLAS DE LA SECCIÓN MEXT */
+
+.tabla-mext{
+    font-size: 25px;
+    text-align: center;
+    color:steelblue;
+    border: medium solid #000;
+    border-collapse: collapse;
+    margin: 50px;
+}
+.tabla-mext td {
+    padding: 20px;
+    border: medium solid #000;
+}
+.tabla-mext td a{
+    color: #CA2AFC;
+}
+.tabla-mext:visited{
+    color: inherit;
+}
+
+
+.website-screenshoot{
+    max-width: 100%;
+}
+
+/*Estilos para textos escritos en japonés */ 
+.texto-japones{
+    font-family: "Yu Mincho",sans-serif;
+    font-size: 26px;
+}
+
+/*CLASE PARA CENTRAR IMAGENES GENERAL */
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+/* CLASE PARA CENTRAR IMAGENES EN LA SECCIÓN DE YOUTUBERS*/
+.center-youtubers img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+
+/* CLASE PARA CENTRAR TABLAS SECCIÓN MEXT */
+.center-table table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* ESTILOS DE LISTA DE LOS EXAMENES */
+.exam-list{
+    list-style-type: none;
+}
+
+.item-exam-list *{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    color: #2aaffc; 
+       
+}
+
+
+.item-exam-list:hover *{
+    color: #0e6496;  
+
+}
+.lista-examenes:visited{
+    color: inherit;
+}
+
+.item-exam-list{
+    color: #FC9C2A;
+}
+
+
+
+/* Estilos items recursos */
+.color-espanol{
+    color: #FC9C2A;
+}
+.color-ingles{
+    color: #0179EE;
+}
+.color-japones{
+    color: #CA2AFC;
+}
+
+.resource-item-hover:hover{
+     color: #7DDAD9;  
+}
+.resource-list>li{
+    margin-bottom: 7px;
+}
+.resource-list{    
+        /* Default bullets style erased */
+        list-style: none;
+}
+
+.resource-list>li::before {
+    /* Unicode for a bullet */
+    content: "\2022";
+          
+    /* Styles for Indentation*/
+    color: violet;
+          
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;    
+}
+
+.item-ingles, .item-ingles>a{
+    color: #0179EE;
+}
+.item-japones, .item-japones>a{
+    color: #CA2AFC;
+}
+
+
+/* Estilos icono pdf */
+.fa-file-pdf{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+    .resource-list *{
+        font-size: 16px;
+    }
+    h1{
+        color: #CA2AFC;
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+
+    .header{
+        height: 60px;
+    }
+    /* CSS PARA EL NAV */
+    .logo{
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(64, 22, 104);
+        margin-right: 20px;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+    }
+    
+    .nav-menu-item{
+        line-height: 70px;
+    }
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: rgb(163, 75, 245) ;
+    }
+    .nav-toggle{
+       display: block; 
+    }
+    .nav-menu_visible{
+        left: 0;
+    }
+    /* ESTILOS DEL BOTON */
+    .menu-btn{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+        border: none;
+        padding: 0 3px;
+    }
+    .menu-btn_burger{
+        width: 35px;
+        height: 4px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgb(163, 75, 245) ;
+        transition: all .5s ease-in-out;
+        
+    }
+    .menu-btn_burger::before,
+    .menu-btn_burger::after{
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 4px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgb(163, 75, 245) ;
+        transition: all .5s ease-in-out;
+    }
+    .menu-btn_burger::before{
+        transform: translateY(-12px);
+    }
+    .menu-btn_burger::after{
+        transform: translateY(12px);
+    }
+    /* ANIMATION */
+    .menu-btn.open .menu-btn_burger{
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+    }
+    .menu-btn.open .menu-btn_burger::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    .menu-btn.open .menu-btn_burger::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+
+    img{
+        max-width: 100%;
+    }
+    td {
+        display: block;
+    }
+}
+
+
