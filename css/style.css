@@ -6,9 +6,37 @@
 
 body{
     padding: 90px 20px 0;
+    background: #E9ECF4;
     overflow: scroll; /* Show scrollbars */
 }
+
+/* CSS PARA GRID  */
+
+.contenedor {
+    width: 70%;
+    margin: 20px auto;
+}
+.contenedor > div,
+.contenedor .contenido,
+.contenedor .sidebar,
+.contenedor .footer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
 /* CSS PARA EL HEADER */
+
+
 
 .header{
     background-color: blueviolet;
@@ -149,6 +177,8 @@ html{
 }
 
 
+
+
 .website-screenshoot{
     max-width: 100%;
 }
@@ -193,6 +223,7 @@ html{
 .item-exam-list *{
     margin-bottom: 10px;
     padding-bottom: 20px;
+
     color: #2aaffc; 
        
 }
@@ -228,6 +259,7 @@ html{
 }
 .resource-list>li{
     margin-bottom: 7px;
+    margin: 12px;
 }
 .resource-list{    
         /* Default bullets style erased */
@@ -254,6 +286,11 @@ html{
 }
 
 
+
+
+
+
+
 /* Estilos icono pdf */
 .fa-file-pdf{
     padding-left: 10px;
@@ -274,6 +311,26 @@ html{
 
 @media (max-width:768px){
 
+    body{
+        padding: 50px 0px 0;
+        background: #E9ECF4;
+        overflow: scroll; /* Show scrollbars */
+    }
+    
+    /* CSS PARA GRID  */
+    
+    .contenedor {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .contenedor > div,
+    .contenedor .contenido,
+    .contenedor .sidebar,
+    .contenedor .footer {
+        background: #fff;
+        padding: 20px;
+        border-radius: 4px;
+    }
     
     .resource-list *{
         font-size: 16px;
