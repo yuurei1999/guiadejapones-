@@ -8,6 +8,8 @@ body{
     padding: 90px 20px 0;
     background: #E9ECF4;
     overflow: scroll; /* Show scrollbars */
+    background-image: url(../assets/images/darkness.png);
+   
 }
 
 /* CSS PARA GRID  */
@@ -15,6 +17,7 @@ body{
 .contenedor {
     width: 70%;
     margin: 20px auto;
+
 }
 .contenedor > div,
 .contenedor .contenido,
@@ -108,17 +111,22 @@ section {
 
 h1 {
     text-align: center;
+    font-family: 'Lato', sans-serif;
     font-size: 34px;
-    margin: 10px;
-}
+    margin: 10px;}
+    
 
 h2 {
     text-align: center;
+    font-family: 'Lato', sans-serif;
     font-size: 32px;
     margin: 30px;
+
 }
 h3 {
     font-size: 26px;
+    font-family: 'Lato', sans-serif;
+
 }
 h4{
     font-size: 26px;
@@ -260,11 +268,17 @@ html{
 .resource-list>li{
     margin-bottom: 7px;
     margin: 12px;
+    
+  
 }
-.resource-list{    
+
+.resource-list *{    
         /* Default bullets style erased */
-        list-style: none;
+        list-style: none;  
+        font-family: 'Open Sans', sans-serif;    
+        
 }
+
 
 .resource-list>li::before {
     /* Unicode for a bullet */
@@ -312,8 +326,8 @@ html{
 @media (max-width:768px){
 
     body{
-        padding: 50px 0px 0;
-        background: #E9ECF4;
+ 
+        padding: 50px 0px 0;    
         overflow: scroll; /* Show scrollbars */
     }
     
@@ -322,7 +336,10 @@ html{
     .contenedor {
         width: 100%;
         margin: 0px auto;
+             
     }
+
+    
     .contenedor > div,
     .contenedor .contenido,
     .contenedor .sidebar,
