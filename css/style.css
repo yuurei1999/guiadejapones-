@@ -147,6 +147,10 @@ a {
     font-size: 24px;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;    
+}
+
 figcaption{
     font-size: 25px;
 }
@@ -164,21 +168,32 @@ html{
 
 
 /* ESTOS SON  LOS ESTILOS CORRESPONDIENTES A LAS TABLAS DE LA SECCIÓN MEXT */
+th{
+    
+    background-color: blueviolet;
 
+    color: #fff;
+}
 .tabla-mext{
     font-size: 25px;
     text-align: center;
+    
     color:steelblue;
-    border: medium solid #000;
+    border: groove #000;
     border-collapse: collapse;
     margin: 50px;
+    width: 75%;
+    
 }
-.tabla-mext td {
+
+.tabla-mext td,th {
     padding: 20px;
-    border: medium solid #000;
+    border: groove #000;
+     border-collapse: collapse;
+    
 }
 .tabla-mext td a{
-    color: #CA2AFC;
+    color: #0e6496;
 }
 .tabla-mext:visited{
     color: inherit;
