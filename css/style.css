@@ -5,8 +5,9 @@
 }
 
 body{
-    padding: 90px 20px 0;
-    background: #E9ECF4;
+    /* padding: 90px 20px 0;  este era el original*/
+    padding: 20px 20px 0;
+    background: #fff;
     overflow: scroll; /* Show scrollbars */
    
    
@@ -42,10 +43,11 @@ body{
 
 
 .header{
-    background-color: blueviolet;
+    /* background-color: blueviolet; original */
+    background-color: #B565A7;
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 50px;
     top: 0;
     left: 0;
 }
@@ -53,7 +55,7 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    max-width: 992px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .nav-link{
@@ -65,7 +67,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     padding: 0 40px;
-    line-height: 80px;
+    line-height: 50px;
 }
 .nav-menu{
     display: flex;
@@ -77,7 +79,7 @@ body{
     font-size: 18px;
     font-weight: bold;
     margin: 0 10px;
-    line-height: 80px;
+    line-height: 50px;
     text-transform: uppercase;
     width: max-content;
 }
@@ -87,8 +89,8 @@ body{
 }
 .nav-menu-link:hover,
 .nav-menu-link_active{
-    background-color: rgb(110, 34, 180);
-    transition: 0.7s;
+    background-color: #915285;
+    transition: 1.5s;
 }  
 
 .nav-toggle{
@@ -105,8 +107,8 @@ body{
 
 
 section {
-    padding-top: 60px;
-    margin-top: -60px;
+    padding-top: 40px;
+    margin-top: -40px;
 }
 
 h1 {
@@ -158,7 +160,6 @@ figcaption{
 .mensaje-disculpa{
     text-align: center;
     font-size: 30px;
-    background-color: lightseagreen;
     border-color: black;
 }
 
@@ -170,7 +171,7 @@ html{
 /* ESTOS SON  LOS ESTILOS CORRESPONDIENTES A LAS TABLAS DE LA SECCIÓN MEXT */
 th{
     
-    background-color: blueviolet;
+    background-color: #B565A7;
 
     color: #fff;
 }
@@ -368,7 +369,7 @@ th{
         font-size: 16px;
     }
     h1{
-        font-size: 2em;
+        font-size: 1.6em;
     }
     h2{
         font-size: 1.5em;
@@ -396,7 +397,7 @@ th{
     .nav-menu{
         flex-direction: column;
         align-items: center;
-        background-color: rgb(64, 22, 104);
+        background-color: #945288;
         margin-right: 20px;
         position: fixed;
         left: 0;
@@ -417,7 +418,7 @@ th{
     .nav-menu-link:hover,
     .nav-menu-link_active {
         background: none;
-        color: rgb(163, 75, 245) ;
+        color: #e097d3 ;
     }
     .nav-toggle{
        display: block; 
@@ -443,8 +444,8 @@ th{
         height: 4px;
         background: #fff;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgb(163, 75, 245) ;
-        transition: all .5s ease-in-out;
+        box-shadow: 0 2px 5px #B565A7;
+        transition: all .3s ease-in-out;
         
     }
     .menu-btn_burger::before,
@@ -455,8 +456,8 @@ th{
         height: 4px;
         background: #fff;
         border-radius: 5px;
-        box-shadow: 0 2px 5px rgb(163, 75, 245) ;
-        transition: all .5s ease-in-out;
+        box-shadow: 0 2px 5px #B565A7;
+        transition: all .3s ease-in-out;
     }
     .menu-btn_burger::before{
         transform: translateY(-12px);
