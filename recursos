@@ -28,7 +28,7 @@
 </head>
 <body>
 <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=4906217722748291&autoLogAppEvents=1" nonce="3YFVzPr4"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=4906217722748291&autoLogAppEvents=1" nonce="ZmMoKh49"></script>
 <script>
         window.fbAsyncInit = function() {
           FB.init({
