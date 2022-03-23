@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/618e145ffc.js" crossorigin="anonymous"></script>
+    <script defer src="/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.1.0-web/css/all.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.1.0-web/css/solid.css">
+    <meta name="description" content="En esta sección podrás encontrar una lista de canales de YouTube y sitios web para aprender japonés de forma autodidacta, así como diccionarios de japonés gratuitos que podrás consultar en línea o instalar en tu celular."> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">    
+    <meta property="fb:app_id" content="&#123;4906217722748291&#125;" />
+    <meta property="fb:admins" content="&#123;silverspoon117&#125;"/>
+
+    <title>Recursos</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6M7V5ZKKZC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6M7V5ZKKZC');
+</script>
+    
+</head>
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0&appId=4906217722748291&autoLogAppEvents=1" nonce="3YFVzPr4"></script>
+<script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '4906217722748291',
+            cookie     : true,
+            xfbml      : true,
+            version    : 'v13.0'
+          });
+            
+          FB.AppEvents.logPageView();   
+            
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+         
+        </script>
+        <header class="header">
+        <nav class="nav">
+            <a href="https://www.guiadejapones.moe" class="logo nav-link"><i class="fa-solid fa-egg"></i> Silver Spoon</a>
+            <div class="menu-btn">
+                <div class="menu-btn_burger" aria-label="Abrir menú"></div>
+            </div>
+            <script src="button.js"></script>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="https://www.guiadejapones.moe/guia" class="nav-link nav-menu-link">Guía</a></li>
+                <li class="nav-menu-item"><a href="" class="nav-link nav-menu-link">JLPT</a></li>
+                <li class="nav-menu-item"><a href="https://www.guiadejapones.moe/mext" class="nav-link nav-menu-link">MEXT</a></li>
+                <li class="nav-menu-item"><a href="https://www.guiadejapones.moe/recursos" class="nav-link nav-menu-link">Recursos</a></li>
+            </ul>
+        </nav>
+        </header>    
+        <div class="contenedor">
+           <main class="contenido">
+            <h1>Recursos</h1>
+            <h2>Contenido</h2>
+            <ul class="resource-list">
+                <li><a class="color-ingles resource-item-hover" href="#diccionarios">Diccionarios</a></li>
+                <li><a class="color-ingles resource-item-hover" href="#canales-gramatica">Canales de YouTube (Gramática)</a></li>
+                <li><a class="color-ingles resource-item-hover" href="#canales-japon">Canales de YouTube (Japón)</a></li>
+                <li><a class="color-ingles resource-item-hover" href="#sitios-web">Sitios Web</a></li>
+                <li><a class="color-ingles resource-item-hover" href="#recursos-immersion">Recursos para inmersión (anime / manga / light novels)</a></li>
+                <li><a class="color-ingles resource-item-hover" href="#aportar">Aportar (Dejar un comentario / sugerencia)</a></li>
+            </ul>
+            <section id="diccionarios">
+                <h2>Diccionarios de japonés</h2>
+                <h3>Diccionarios en línea:</h3>
+                <ul class="resource-list">
+                    <li><a class="color-ingles resource-item-hover" href="https://jisho.org/" target="_blank">Jisho.org</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.tanoshiijapanese.com/dictionary/" target="_blank">Tanoshii Japanese</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://japaslang.com/" target="_blank">Japaslang</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://ejje.weblio.jp/" target="_blank">Weblio</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://ichi.moe" target="_blank">Ichi</a></li>
+                </ul>
+                <h3>Dispositivos móviles:</h3>
+                <ul class="resource-list">
+                    <li class="color-ingles">Akebi</li>
+                    <li class="color-ingles">Takoboto</li>
+                    <li class="color-ingles">Shirabe</li>
+                </ul>
+                <h3>Pronunciación</h3>
+                <ul class="resource-list">
+                    <li><a class="color-ingles resource-item-hover" href="https://forvo.com" target="_blank">Forvo</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://youglish.com/japanese" target="_blank">Youglish</a></li>
+                </ul>
+            </section>
+            
+            <hr>
+            <section id="canales-gramatica">
+                <h2>Canales de YouTube para aprender japonés (Gramática)</h2>
+                <ul class="resource-list">
+                    <li class="color-espanol">Canal en español</li>
+                    <li class="color-ingles">Canal en inglés</li>
+                    <li class="color-japones">Canal en japonés</li>
+                </ul>
+                <br>
+                <ul class="resource-list">
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/c/EnJapon%C3%A9sConRafy" target="_blank">En japonés con Rafy</a></li>
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/channel/UCOOhOJDgaATb4VFcmEs0mAw" target="_blank">Kiravivo</a></li>
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/c/YUYUNIHONGO" target="_blank">YUYU NIHONGO</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/c/JapaneseAmmowithMisa" target="_blank">Japanese Ammo with Misa</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/channel/UCsQCbl3a9FtYvA55BxdzYiQ" target="_blank">Miku Real Japanese</a> </li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/c/MasaSensei" target="_blank">Masa Sensei</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ" target="_blank">🌸Organic Japanese with Cure Dolly🌸</a></li>
+                    <li><a class="color-japones resource-item-hover" href="https://www.youtube.com/c/nihongonomori2013" target="_blank">日本語の森</a></li>
+                    <li><a class="color-japones resource-item-hover" href="https://www.youtube.com/channel/UCJUQG9V0DuccWVOw8ovzTsQ" target="_blank">日本語 to 旅 〜Nihongo to Tabi〜</a></li>
+                    <li><a class="color-japones resource-item-hover" href="https://www.youtube.com/channel/UC0ujXryUUwILURRKt9Eh7Nw" target="_blank">三本塾 -Sambon Juku-</a></li>
+                    <li><a class="color-japones resource-item-hover" href="https://www.youtube.com/channel/UCRueOUh7I2IHP74irBGf1mA" target="_blank">Necota's Japanese Language Classroom</a></li>
+                    <li><a class="color-japones resource-item-hover" href="https://www.youtube.com/channel/UCmGDPdyye0U6bJ0npDdUIfw" target="_blank">Yoshiko's japanese class.よしこの日本語教室</a></li>
+                </ul>
+            </section>    
+            <hr>
+            <section id="canales-japon">
+                <h2>Canales sobre Japón</h2>
+                <ul class="resource-list">
+                    <li class="color-espanol">Canal en español</li>
+                    <li class="color-ingles">Canal en inglés</li>
+                    <li class="color-japones">Canal en japonés</li>
+                </ul>
+                <br>
+                <ul class="resource-list">
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/c/Nekojitablog" target="_blank">Nekojitablog</a></li>
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/user/KiraPepelu" target="_blank">Kira Sensei</a></li>
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/c/LaEsponesa" target="_blank">LaEsponesa</a></li>
+                    <li><a  class="color-espanol resource-item-hover" href="https://www.youtube.com/c/Yunae" target="_blank">Yunae</a></li>
+                    <li><a class="color-espanol resource-item-hover" href="https://www.youtube.com/c/JapatonicLITE" target="_blank">Japatonic LITE</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/c/AskJapanese" target="_blank">Ask Japanese</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/c/AbroadinJapan" target="_blank">Abroad in Japan</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/c/TheAnimeMan" target="_blank">The Anime Man</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/c/ThatJapaneseManYuta" target="_blank">That Japanese Man Yuta</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.youtube.com/channel/UCH5iDdsM1eOLUgdwRyDpekA" target="blank">Dark side of Japan Yuki</a></li>
+                </ul>
+            </section>
+            
+            <hr>
+            <section id="sitios-web">
+                <h2>Sitios web</h2>
+                <ul class="resource-list">
+                    <li class="color-espanol">Canal en español</li>
+                    <li class="color-ingles">Canal en inglés</li>
+                    <li class="color-japones">Canal en japonés</li>
+                </ul>
+                <br>
+                <ul class="resource-list">
+                    <li><a class="color-ingles resource-item-hover" href="https://maggiesensei.com/" target="_blank">Maggie Sensei</a>: El mejor sitio web que conozco para aprender gramática. 
+                    <br>
+                    Cada lección cuenta con la explicación del punto gramatical, cómo se estructura, los diferentes usos y una cantidad enorme de ejemplos.
+                    <br>
+                    Recomiendo este sitio web a todo a quel que busque explicaciones con ejemplos del japonés usado en la vida real.
+                    </li>
+                    <li><a class="color-espanol resource-item-hover" href="https://hinative.com/" target="_blank">HiNative</a>: Es una plataforma en la que puedes hacer y responder preguntas sobre cultura o idiomas. Lo mejor es que tus preguntas pueden ser respondidas directamente por personas nativas.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://japanese.stackexchange.com/" target="_blank">Japanese Language Stack Exchange</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.migaku.io/" target="_blank">Migaku</a>: Contiene, en mi opinión, las mejores herramientas para estudiar idiomas. Desde diccionarios para nuestro navegador que nos muestran las definiciones con tan solo pasar el cursor sobre una palabra y presionar una tecla del teclado, hasta una extensión que nos permite crear tarjetas de anki de forma instantanea. Lo mejor es que cuenta con soporte a varios idiomas y que puedes usarla con Netflix o videos locales. 
+                    <br>
+                    NOTA: La mayoría de herramientas de Migaku requieren estar suscrito en Patreon o bien pagar por una suscripción en la sección de Pricing.
+                    <br>
+                    <a class="color-ingles resource-item-hover" href="https://www.migaku.io/pricing" target="_blank">Precios Migaku</a>
+                    </li>
+                    <li><a class="color-ingles resource-item-hover" href="http://www.alljapaneseallthetime.com/blog/" target="_blank">AJATT</a>: Una guía para adquirir el idioma de forma divertida con un método diferente al que estamos acostumbrados.
+                    <br>
+                    Puede que este sitio web no esté tan bien estructurado y lo encuentres un poquito difícil de entender. Si este método te interesa :) es mejor usar la guía del sitio web de Refold. Está basada en el mismo método, se encuentra bien estructurada y además su creador también tiene un canal de YouTube en el que constantemente hace videos sobre el aprendizaje de idiomas. 
+                    </li>
+                    <li><a class="color-ingles resource-item-hover" href="https://refold.la/" target="_blank">Refold</a></li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.tofugu.com/" target="_blank">Tofugu</a>: Útil para aprender gramática y cultura japonesa.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://learnjapanese.moe/" target="_blank">TheMoeWay</a>: Una excelente guía para aprender japonés (similar a Refold). 
+                    <br>
+                    Cuenta con una enorme cantidad de recursos que nos ayudarán en nuestro aprendizaje del japonés.
+                    </li>
+                    <li><a class="color-espanol resource-item-hover" href="https://www3.nhk.or.jp/news/easy/" target="_blank">NEWS WEB EASY</a>: Noticias de la actualidad escritas usando gramática y vocabulario más sencillo en comparación con las noticias que leería una persona japonesa. 
+                    Las noticias contienen una opción para añadir furigana y cuentan con su respectivo audio.
+                    <br>    
+                    Normalmente suben 4 noticias diarias de diversos temas.</li>
+                </ul>
+            </section>
+            <hr>
+            <section id="recursos-immersion">
+                <h2>Recursos para inmersión</h2>
+                <ul class="resource-list">
+                    <li><a class="color-ingles resource-item-hover" href="https://animelon.com" target="_blank">Animelon</a>: Sitio web para ver anime con subtítulos en japonés.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://kitsunekko.net" target="_blank">Kitsunekko</a>: Sitio web para descargar subtítulos en japonés. Normalmente esto solo es útil cuando queremos agregar subtítulos a un anime raw (sin subtítulos) que tenemos en nuestra computadora.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://nyaa.si" target="_blank">Nyaa</a>: Este sitio web está repleto de torrents para descargar anime, manga, light novels y live actions. Posiblemente algunos anime o películas solo los encuentres sin subtítulos y tendremos que acudir a kitsunekko para descargar los subtítulos en japonés.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://itazuraneko.neocities.org/library/librarymain.html" target="_blank">Itazuraneko</a>: La biblioteca más grande para descargar novelas o manga.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://global.bookwalker.jp/" target="_blank">Bookwalker</a>: Sitio web para comprar manga en japonés.</li>
+                    <li><a class="color-ingles resource-item-hover" href="https://www.amazon.co.jp/-/en/AmazonGlobal-AmazonJapan/b?ie=UTF8&node=3534638051" target="_blank">Amazon Japan</a>: Comprar manga / novelas en japonés.</li>
+                </ul>                  
+               
+            </section>            
+            <hr>
+            <section id="aportar">
+                <h2>¿Quieres ayudar a que la lista de recursos sea más grande?</h2>
+                <p>Deja un comentario con el nombre del canal de YouTube, app o sitio web en la caja de comentarios y el recurso será agregado a la sección correspondiente. </p>
+                <img class="center" src="assets/images/yoroshiku.png" alt="gato pidiendo un favor" width="40%">
+                <div class="fb-comments" data-href="https://www.guiadejapones.moe/recursos" data-width="100%" data-numposts="5"></div>
+            </section>            
+        </main>               
+        <footer class="footer">           
+        </footer>
+        
+    </div>
+</body>
+</html>
