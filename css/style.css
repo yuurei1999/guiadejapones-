@@ -50,6 +50,7 @@ body{
     height: 50px;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 /* CSS PARA EL NAV */
 .nav{
