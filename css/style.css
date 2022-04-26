@@ -210,13 +210,18 @@ th{
 
 /*Estilos para textos escritos en japonés */ 
 .texto-japones{
-    font-family: "Yu Mincho",sans-serif;
-    font-size: 26px;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 24px;
 }
 .texto-japones-title{
     font-family: 'Noto Serif JP', serif;
     font-size: 30px;
     color: #B565A7;
+}
+.japanese-text{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 24px;
+    color: #0ad3d3;
 }
 
 /*CLASE PARA CENTRAR IMAGENES GENERAL */
@@ -285,17 +290,17 @@ th{
 
 /* Estilos items recursos */
 .color-espanol{
-    color: #FC9C2A;
+    color: #CA2AFC;
 }
 .color-ingles{
-    color: #0179EE;
+    color: #0080ff;
 }
 .color-japones{
-    color: #CA2AFC;
+    color: #1ab0ae;
 }
 
 .resource-item-hover:hover{
-     color: #7DDAD9;  
+     color: #ff8cd3;  
 }
 .resource-list>li{
     margin-bottom: 7px;
@@ -304,7 +309,13 @@ th{
   
 }
 
-.resource-list *{    
+.resource-list-mext *{    
+    /* Default bullets style erased */
+    list-style: none;  
+    font-family: 'Open Sans', sans-serif;    
+    
+}
+.resource-list *:not(span){    
         /* Default bullets style erased */
         list-style: none;  
         font-family: 'Open Sans', sans-serif;    
